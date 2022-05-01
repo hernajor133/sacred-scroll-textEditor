@@ -1,27 +1,19 @@
 # sacred-scroll-textEditor
 
-
-[Deployed Application on Heroku]()
-
 ## Description
 
-This is a single-page, downloadable text editor you can use offline! It features a number of data persistency techniques that serve as redundancy in case one of the options isn't supported by the browser. Users can re-access their notes on page refresh, as they are stored in a database.
-
+A text editor application that allows the user to download it to use it locally on their computer. Which allows the user to use it when not connected to the web server. 
 ## Table of Contents
 
 1. [Installation](#installation)
-2. [Usage & User Story](#usage)
+2. [User Story](#User-Story)
 3. [Contributers](#contributers)
 4. [Screenshots](#screenshots)
 5. [Main-Repo](#Project-Repo-w/Heroku)
 
 ## Installation
 
-Run `npm i` inside each folder with a .json file to install dependencies for back-end. For front end, simply open the application deployed on Heroku and click "INSTALL" to access locally and save to your device.
-
-## Usage
-
-Never lose your notes again! Jot down handy thoughts or reminders to yourself, or even write a narrative. Your text will be saved locally in a database for later access, even after the application has been closed.
+Run `npm i` to install dependencies for back-end. For front end, open the application with Heroku in the links below. Click "INSTALL" to access locally and save data to your device.
 
 ## User Story
 
@@ -37,12 +29,13 @@ Jordi Hernandez
 
 ## Screenshots
 
-![Screenshot1](./assets/screenshot1.png)
-![Screenshot2](./assets/screenshot2.png)
-![Screenshot4](./assets/screenshot4.png)
+![Screenshot1](./img/J.A.T.E.png)
+![Screenshot2](./img/JATE2.png)
+![Screenshot4](./img/JATE3.png)
 
 ### Project-Repo w/Heroku
 
+[Heroku](https://sacred-scroll-texteditor.herokuapp.com/)
 [GitHub](https://github.com/hernajor133/sacred-scroll-textEditor)
 
 ### Main-GitHub w/Developer Info
