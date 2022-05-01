@@ -21,3 +21,19 @@ buttonInstall.addEventListener("click", async () => {
   if (!promptEvent) {
     return;
   }
+
+  //Show prompt
+  promptEvent.prompt();
+
+  //Reset the deferred prompt variable. It can only be used one time.
+  window.deferredPrompt = null;
+
+  buttonInstall.classList.toggle("hidden", true);
+});
+
+// Add an handler for the `appinstalled` event
+window.addEventListener("appinstalled", (event) => {
+  console.log("app installed");
+  //Clear prompt
+  window.deferredPrompt = null;
+});
